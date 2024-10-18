@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="50dp"
+        android:textColor="#4527A0"
+        android:textStyle="bold"
+        android:id="@+id/register"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/username"
+        android:textColor="#000000"
+        android:textColorHint="#000"
+        android:drawableLeft="@drawable/ic_person"
+        android:background="@drawable/bg_shape"
+        android:drawablePadding="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="email"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/email"
+        android:textColorHint="#000"
+        android:textColor="#000000"
+        android:drawableLeft="@drawable/ic_email"
+        android:background="@drawable/bg_shape"
+        android:drawablePadding="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/password"
+        android:textColor="#000000"
+        android:textColorHint="#000"
+        android:drawableLeft="@drawable/ic_password"
+        android:background="@drawable/bg_shape"
+        android:drawablePadding="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"
+        android:text="Regsiter"
+        android:textSize="20sp"
+        android:background="@drawable/bg_shape"
+        android:id="@+id/registerBtn"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account? Sign in"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/tvLogin"
+        android:textColor="#0000FF"/>
+
+
+</LinearLayout>
